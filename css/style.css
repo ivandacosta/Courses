@@ -59,7 +59,8 @@ header .menu a:hover {
   padding-top: 80px;
 }
 .reco .reconocida .aerolineas img {
-  width: 200px;
+  margin-bottom: 50px;
+  width: 150px;
 }
 
 .certificado {
@@ -79,41 +80,181 @@ header .menu a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url("../img/ux.png");
-  background-size: cover;
-  background-position: right;
   height: 300px;
 }
+.certificado .certext i {
+  color: #FF3131;
+}
 
-.destacados {
+.sobre-beca {
   background-color: rgb(24, 24, 24);
   margin: auto;
   width: 300px;
-  height: 1100px;
-  border-radius: 10px;
+  height: 500px;
+  border-radius: 5px;
+  padding: 30px;
   margin-top: 100px;
   text-align: center;
-  color: #fff;
+  color: #FF5858;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
-.destacados .destacados-container {
+.sobre-beca .beca {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 30px;
-}
-.destacados .destacados-container .d-items {
-  margin-top: 50px;
-  background-color: #FF3131;
-  width: 250px;
-  height: 250px;
   color: #fff;
-  border-radius: 5px;
-  box-shadow: 5px 5px rgb(24, 24, 24);
 }
-.destacados .destacados-container .d-items h3 {
-  color: rgb(24, 24, 24);
+.sobre-beca .beca button {
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #FF3131;
+}
+.sobre-beca .beca button:hover {
+  background-color: #fff;
+  color: #FF3131;
+  font-weight: 700;
+}
+
+.secciones {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.secciones button {
+  width: 160px;
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #FF3131;
+}
+.secciones button:hover {
+  background-color: #fff;
+  color: #FF3131;
+  font-weight: 700;
+}
+
+.js-secciones-cursos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 30px;
+}
+.js-secciones-cursos a {
+  text-decoration: none;
+}
+.js-secciones-cursos .js-seccion-design {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 300px;
+  height: 200px;
+  background-color: rgba(245, 245, 245, 0.1);
+  text-align: center;
+  border: 2px solid #FF5858;
+  cursor: pointer;
+}
+.js-secciones-cursos .js-seccion-design h2 {
+  color: #fff;
+}
+.js-secciones-cursos .js-seccion-design p {
+  color: #fff;
+}
+.js-secciones-cursos .js-seccion-design img {
+  width: 100px;
+}
+.js-secciones-cursos .js-seccion-design:hover {
+  border: none;
+}
+
+.python {
+  font-family: "Roboto", sans-serif;
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.python .py1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.python .py1 h2 {
+  color: #fff;
+  font-size: 2.5em;
+}
+.python .py1 h3 {
+  color: #fff;
+}
+.python .py1 img {
+  width: 150px;
+}
+.python .py1 button {
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #FF3131;
+}
+.python .py1 button:hover {
+  background-color: #fff;
+  color: #FF3131;
+  font-weight: 700;
+}
+.python .py2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.python .py2 i {
+  color: #FF3131;
+}
+.python .py2 h3 {
+  color: #fff;
+}
+.python .py2 .py-price {
+  background-color: #FF5858;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.python .py2 .py-price p {
+  color: #1F1F1F;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: auto;
+}
+.python .py2 .py-price button {
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #FF3131;
+  background-color: #1F1F1F;
+  margin: auto;
+  text-align: center;
+  height: 30px;
+  width: 40px;
+}
+.python .py2 .py-price button i {
+  color: #FF3131;
+}
+.python .py2 .py-price button:hover {
+  background-color: #fff;
+  color: #FF3131;
+}
+
+footer {
+  color: #fff;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 @media screen and (min-width: 768px) {
@@ -137,11 +278,14 @@ header .menu a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-  .destacados {
-    width: 800px;
-    height: 400px;
+  .sobre-beca {
+    width: 900px;
+    height: 300px;
   }
-  .destacados .destacados-container {
+  .secciones {
+    flex-direction: row;
+  }
+  .js-secciones-cursos {
     flex-direction: row;
   }
 }/*# sourceMappingURL=style.css.map */
