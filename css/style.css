@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  background-color: rgb(31, 31, 31);
+}
+
+header .avisostext {
+  background-color: #FF5858;
+  text-align: center;
+  color: #fff;
+}
+header .avisostext #avisoh3 {
+  font-size: 1em;
+}
+header .menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(24, 24, 24);
+}
+header .menu .logo img {
+  width: 100px;
+}
+header .menu a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: #fff;
+}
+header .menu a:hover {
+  color: #FF5858;
+}
+
+.reco {
+  padding-top: 200px;
+  text-align: center;
+  color: #fff;
+}
+.reco .reconocida {
+  padding-top: 100px;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+.reco .reconocida .ml {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.reco .reconocida .ml img {
+  width: 200px;
+}
+.reco .reconocida .rappi img {
+  width: 150px;
+}
+.reco .reconocida .aerolineas {
+  padding-top: 80px;
+}
+.reco .reconocida .aerolineas img {
+  width: 200px;
+}
+
+.certificado {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+.certificado img {
+  width: 250px;
+}
+.certificado .certext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../img/ux.png");
+  background-size: cover;
+  background-position: right;
+  height: 300px;
+}
+
+.destacados {
+  background-color: rgb(24, 24, 24);
+  margin: auto;
+  width: 300px;
+  height: 1100px;
+  border-radius: 10px;
+  margin-top: 100px;
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+.destacados .destacados-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.destacados .destacados-container .d-items {
+  margin-top: 50px;
+  background-color: #FF3131;
+  width: 250px;
+  height: 250px;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px rgb(24, 24, 24);
+}
+.destacados .destacados-container .d-items h3 {
+  color: rgb(24, 24, 24);
+}
+
+@media screen and (min-width: 768px) {
+  header .avisostext #avisoh3 {
+    font-size: 1.5em;
+  }
+  header .menu {
+    font-size: 1.3em;
+  }
+  header .menu .logo img {
+    width: 110px;
+  }
+  .certificado {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .certificado img {
+    width: 400px;
+  }
+  .reco .reconocida {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .destacados {
+    width: 800px;
+    height: 400px;
+  }
+  .destacados .destacados-container {
+    flex-direction: row;
+  }
+}/*# sourceMappingURL=style.css.map */
