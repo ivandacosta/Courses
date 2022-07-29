@@ -253,8 +253,40 @@ header .menu a:hover {
 }
 
 footer {
+  background-color: rgb(24, 24, 24);
+}
+footer .fooflex {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
   color: #fff;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+footer .fooflex i {
+  color: #FF3131;
+  padding: 5px;
+}
+footer .fooflex .redes h3 {
+  font-size: 0.9em;
+}
+footer .fooflex .ubication h3 {
+  font-size: 0.9em;
+}
+footer .fooflex .ubication p {
+  font-size: 0.7em;
+}
+footer .foorow {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .foorow h3 {
+  font-size: 0.9em;
+}
+footer .foorow p {
+  font-size: 0.7em;
 }
 
 @media screen and (min-width: 768px) {
@@ -287,5 +319,23 @@ footer {
   }
   .js-secciones-cursos {
     flex-direction: row;
+  }
+  footer .fooflex {
+    flex-direction: row;
+  }
+  footer .fooflex .redes h3 {
+    font-size: 1.4em;
+  }
+  footer .fooflex .ubication h3 {
+    font-size: 1.4em;
+  }
+  footer .fooflex .ubication p {
+    font-size: 1em;
+  }
+  footer .foorow h3 {
+    font-size: 1.4em;
+  }
+  footer .foorow p {
+    font-size: 1em;
   }
 }/*# sourceMappingURL=style.css.map */

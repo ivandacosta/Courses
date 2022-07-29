@@ -294,13 +294,14 @@ header {
                 height: 30px;
                 width: 40px;
 
-                
-                
+
+
                 i {
                     color: #FF3131;
                 }
             }
-            button:hover{
+
+            button:hover {
                 background-color: #fff;
                 color: #FF3131;
             }
@@ -311,8 +312,47 @@ header {
 
 //-------------------FOOOTER------------------------------------
 footer {
-    color: #fff;
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    background-color: $dark;
+
+    .fooflex {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        color: #fff;
+        font-family: "Roboto", Arial, Helvetica, sans-serif;
+        i{color: #FF3131; padding: 5px;}
+        .redes {
+            h3 {
+                font-size: .9em;
+            }
+        }
+
+        .ubication {
+            h3 {
+                font-size: .9em;
+            }
+
+            p {
+                font-size: .7em;
+            }
+        }
+    }
+
+    .foorow {
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h3 {
+            font-size: 0.9em;
+        }
+        p{
+            font-size: 0.7em;
+        }
+    }
+
 }
 
 //--------------------------------------------------------------
@@ -352,10 +392,6 @@ footer {
     .sobre-beca {
         width: 900px;
         height: 300px;
-
-        .beca {
-            // flex-direction: row;
-        }
     }
 
     //------Seccion CURSOS-------
@@ -367,8 +403,37 @@ footer {
         flex-direction: row;
     }
 
-    //---------------------------
+    //--------FOOTER--------------
+    footer {
+    
+        .fooflex {
+            flex-direction: row;
+    
+            .redes {
+                h3 {
+                    font-size: 1.4em;
+                }
+            }
+    
+            .ubication {
+                h3 {
+                    font-size: 1.4em;
+                }
+    
+                p {
+                    font-size: 1em;
+                }
+            }
+        }
 
+        .foorow{
+            h3{
+                font-size: 1.4em;
+            }
+            p{
+                font-size: 1em;
+            }
+        }
 
-
+    }
 }
