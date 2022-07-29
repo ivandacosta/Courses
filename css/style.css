@@ -252,6 +252,15 @@ header .menu a:hover {
   color: #FF3131;
 }
 
+.whatsapp {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+.whatsapp img {
+  width: 50px;
+}
+
 footer {
   background-color: rgb(24, 24, 24);
 }
@@ -319,6 +328,9 @@ footer .foorow p {
   }
   .js-secciones-cursos {
     flex-direction: row;
+  }
+  footer {
+    margin-top: 100px;
   }
   footer .fooflex {
     flex-direction: row;

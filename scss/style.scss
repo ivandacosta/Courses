@@ -309,11 +309,18 @@ header {
         }
     }
 }
+//-------------------WHATSAPP-----------------------------------
+
+.whatsapp{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    img{width: 50px;}
+}
 
 //-------------------FOOOTER------------------------------------
 footer {
     background-color: $dark;
-
     .fooflex {
         text-align: center;
         display: flex;
@@ -405,7 +412,7 @@ footer {
 
     //--------FOOTER--------------
     footer {
-    
+        margin-top: 100px;
         .fooflex {
             flex-direction: row;
     
