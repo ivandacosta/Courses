@@ -404,6 +404,7 @@ header {
             button:hover {
                 background-color: #fff;
                 color: #FF3131;
+                font-weight: 700;
             }
 
         }
@@ -460,6 +461,55 @@ footer {
         }
     }
 
+}
+
+//-------------------LOGIN--------------------------------------
+.login{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #FF3131;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgb(24, 24, 24);
+    width: 300px;
+    height: 350px;
+    .logg{
+        color: #fff;
+        text-align: center;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+
+        p{
+            cursor: pointer;
+        }
+
+        input{
+            width: 200px;
+        }
+        
+        button{
+            background: none;
+                border: 2px solid #fff;
+                border-radius: 5px;
+                color: #FF3131;
+                background-color: #1F1F1F;
+                margin: auto;
+                text-align: center;
+                height: 30px;
+                width: 100px;
+        }
+        button:hover{
+            background-color: #fff;
+                color: #FF3131;
+                font-weight: 700;
+        }
+    }
 }
 
 //--------------------------------------------------------------
