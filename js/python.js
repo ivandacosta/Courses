@@ -1,19 +1,5 @@
 const addBoton = document.getElementById("boton-agregar")
 
-
-// const Toast = Swal.mixin({
-//     toast: true,
-//     position: 'top-end',
-//     showConfirmButton: false,
-//     timer: 3000,
-//     timerProgressBar: true,
-//     didOpen: (toast) => {
-//       toast.addEventListener('mouseenter', Swal.stopTimer)
-//       toast.addEventListener('mouseleave', Swal.resumeTimer)
-//     }
-//   })
-
-
 addBoton.addEventListener("click", () => {
     const swalWithBootstrapButtons = Swal.mixin({
         customClass: {
@@ -51,8 +37,5 @@ addBoton.addEventListener("click", () => {
             'success'
           )
         }
-      })
-
-    
-    
+      })  
 })
