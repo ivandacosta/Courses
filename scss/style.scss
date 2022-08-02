@@ -321,8 +321,9 @@ header {
     justify-content: space-around;
     gap: 50px;
     flex-wrap: wrap;
-
+    
     .js1 {
+        text-align: center;
         display: flex;
         flex-direction: column;
         justify-content: center;
