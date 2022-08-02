@@ -1,5 +1,5 @@
 
-const diseño = document.getElementById("diseño")
+// const diseño = document.getElementById("diseño")
 const html = document.querySelector(".js-secciones-cursos")
 
 
@@ -9,7 +9,7 @@ const programacion = document.getElementById("programacion")
 programacion.addEventListener("click", () => {
     html.innerHTML = `
     <a href="./python.html">
-    <div class="js-seccion-design"><h2>Curso python</h2>
+    <div class="js-seccion-design"><h2>Python</h2>
     <img src="../img/python.png" alt="python">
     <p>💸Precio: $30.000</p>
     </div></a>
@@ -46,7 +46,7 @@ cripto.addEventListener("click", () => {
     
     <a href="./trading.html">
     <div class="js-seccion-design">
-    <h2>Curso trading</h2>
+    <h2>Trading</h2>
     <img src="../img/trading.jpg" style="width: 200px;" alt="trading">
     <p>💸Precio: $45.000</p>
     </div></a>
