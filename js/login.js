@@ -14,7 +14,7 @@ const password = document.querySelector("#password")
 button.addEventListener("click", () => {
     if(email.value === user1.user && password.value === user1.pass){
         setInterval(() => {
-            window.location.replace("./logueado.html")
+            window.location.replace("./plataforma.html")
         }, 3000);
     }else{
         Toastify({

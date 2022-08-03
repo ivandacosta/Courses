@@ -13,9 +13,9 @@ header .avisostext #avisoh3 {
 }
 header .menu {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   font-family: "Roboto", sans-serif;
   background-color: rgb(24, 24, 24);
 }
@@ -39,10 +39,10 @@ header .menu a:hover {
 .reco .reconocida {
   padding-top: 100px;
   display: flex;
-  gap: 50px;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 50px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 .reco .reconocida .ml {
@@ -65,9 +65,9 @@ header .menu a:hover {
 
 .certificado {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding-top: 50px;
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -100,9 +100,9 @@ header .menu a:hover {
 }
 .sobre-beca .beca {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   gap: 30px;
   color: #fff;
 }
@@ -123,8 +123,8 @@ header .menu a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
   flex-direction: column;
+  gap: 10px;
 }
 .secciones button {
   width: 160px;
@@ -143,8 +143,9 @@ header .menu a:hover {
 .js-secciones-cursos {
   margin-bottom: 50px;
   display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
   gap: 30px;
 }
 .js-secciones-cursos a {
@@ -153,9 +154,9 @@ header .menu a:hover {
 .js-secciones-cursos .js-seccion-design {
   margin: auto;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   gap: 10px;
   width: 300px;
   height: 240px;
@@ -182,14 +183,16 @@ header .menu a:hover {
   padding-top: 100px;
   display: flex;
   justify-content: space-around;
-  gap: 50px;
+  align-items: center;
+  flex-direction: column;
   flex-wrap: wrap;
+  gap: 50px;
 }
 .python .py1 {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .python .py1 h2 {
   color: #fff;
@@ -260,15 +263,17 @@ header .menu a:hover {
   padding-top: 100px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
   gap: 50px;
   flex-wrap: wrap;
 }
 .javascript .js1 {
   text-align: center;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .javascript .js1 h2 {
   color: #fff;
@@ -351,6 +356,8 @@ footer .fooflex {
   text-align: center;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
   color: #fff;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
@@ -385,10 +392,10 @@ footer .foorow p {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
-  color: #FF3131;
-  flex-direction: column;
-  gap: 30px;
   align-items: center;
+  flex-direction: column;
+  color: #FF3131;
+  gap: 30px;
   margin: auto;
   margin-top: 100px;
   margin-bottom: 100px;
