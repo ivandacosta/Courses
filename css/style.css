@@ -433,6 +433,43 @@ footer .foorow p {
   font-weight: 700;
 }
 
+.contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+  color: #fff;
+}
+.contacto form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, Arial;
+}
+.contacto form input {
+  width: 200px;
+}
+.contacto form textarea {
+  width: 200px;
+  height: 100px;
+}
+.contacto form button {
+  margin-top: 10px;
+  width: 200px;
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #FF3131;
+  background-color: #1F1F1F;
+  text-align: center;
+}
+.contacto form button:hover {
+  background-color: #fff;
+  color: #FF3131;
+  font-weight: 700;
+}
+
 @media screen and (min-width: 768px) {
   header .avisostext #avisoh3 {
     font-size: 1.5em;
