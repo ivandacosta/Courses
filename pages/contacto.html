@@ -54,15 +54,16 @@
 
     <section class="contacto">
         <h2>Solicitud de beca💯</h2>
-        <form action="send.php">
+        <form action="https://formspree.io/f/xbjbrpgv"
+        method="POST">
             <label for="nombre">Nombre</label>
-            <input type="text" id="nombre">
+            <input name="nombre" type="text" id="nombre">
             <label for="apellido">Apellido</label>
-            <input type="text" id="apellido">
+            <input name="apellido" type="text" id="apellido">
             <label for="edad">Edad</label>
-            <input type="text" id="edad">
+            <input name="edad" type="number" id="edad">
             <label for="comentario">¿Porque deberiamos seleccionarte?</label>
-            <textarea name="" id="comentario" cols="30" rows="10"></textarea>
+            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
             <button type="submit">Enviar</button>
         </form>
     </section>
